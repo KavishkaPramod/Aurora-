@@ -214,15 +214,9 @@
     <script>
         // --- CONFIGURATION ---
         const firebaseConfig = {
-            apiKey: "AIzaSyDpcGW92YYiM6Ca_Qn8OpCkCiBQRBCEZGo",
-            authDomain: "aurora-ai-39c4d.firebaseapp.com",
-            databaseURL: "https://aurora-ai-39c4d-default-rtdb.firebaseio.com",
-            projectId: "aurora-ai-39c4d",
-            storageBucket: "aurora-ai-39c4d.appspot.com",
-            messagingSenderId: "566232529399",
-            appId: "1:566232529399:web:de17eae68ceeb5461d16f2"
+            cost firebase_config = process.env.FIREBASE_CONFIG;
         };
-        const GEMINI_API_KEY = "cost gemini_ap_key = process.env.SCECRET_NAME;"; // <-- IMPORTANT: Add your Gemini API key here!
+        const GEMINI_API_KEY = "cost gemini_api_key = process.env.GEMINI_API_KEY;; // <-- IMPORTANT: Add your Gemini API key here!
         
         // --- API & MODEL ---
         const MODEL_NAME = "gemini-1.5-flash";
